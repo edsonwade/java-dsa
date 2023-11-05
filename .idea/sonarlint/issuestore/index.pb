@@ -26,3 +26,19 @@ Q.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf302663
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 7
 LICENSE,0\3\0398ccd0f49298b10a3d76a47800d2ebecd49859
+9
+	data/data,e\d\ed690d829ab3afdbb5b83c37814fe19ad1b4522a
+K
+data/info about project.txt,6\9\69b2b2f33631be19a6bfad9129a8771573088c2c
+@
+data/Tecnologies,5\1\51936e2bee56aaad68c6fea0d9a5f0fa66802e36
+>
+data/readme.md,b\6\b604483318be2cc44292b01811aec8103fcfdff0
+H
+data/Projects person.txt,1\c\1ccade62520f83de557ace7473d50c6d6d721feb
+H
+data/Online Task Manager,a\c\acd79e9bcb782de44da4060df957067408cee98b
+@
+data/cuurent.txt,6\7\677e7f34033d51c6a92b3e0fe218a3e75a1c3e4e
+8
+data/UML,f\a\faa49084053fc8a210e114b217604027bb960dde
