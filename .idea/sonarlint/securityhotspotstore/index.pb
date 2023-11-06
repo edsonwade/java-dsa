@@ -42,3 +42,9 @@ H
 data/cuurent.txt,6\7\677e7f34033d51c6a92b3e0fe218a3e75a1c3e4e
 8
 data/UML,f\a\faa49084053fc8a210e114b217604027bb960dde
+D
+data/jsonreturn.json,f\7\f7995209e48a8b7c55e1f89b66f30890d55c1e0f
+L
+data/stringResponseJson.java,7\c\7cf9e60c7cc2f4d25c4f75d1504784ec30d05a7b
+K
+data/stringResponseJson.txt,9\5\9503f81b604a92dd0f290739eddba4ce26788037
