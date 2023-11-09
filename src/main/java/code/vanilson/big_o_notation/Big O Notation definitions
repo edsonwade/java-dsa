@@ -21,6 +21,6 @@ Type Of Big O Complexity :
 
 0(N) -> Linear operation.
 
--Drop constants is always the first rule of simplification
+-Drop constants is always the first rule of simplification.
 
 
