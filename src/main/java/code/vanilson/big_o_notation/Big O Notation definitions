@@ -1,0 +1,26 @@
+What is Big O Notation?
+Operation to measure the algorithms operations complexity.
+
+Complexity time -> measure that time tha algorithms takes to be execute.
+Complexity space -> measure that numbers of operation that algorithms need to be execute.
+
+Worst Case ->When we are dealing with time and space complexity
+they are three greek letter that will walk with us :
+Ω - Omega , θ -Theta   O-Omicron  (Big O).
+
+example : find a number in given array
+arr = |1|,|2|,|3|,|4|,|5|,|6|,|7|
+
+in position 0 = 1 --> The best case. we call this Omega
+in position 3 = 4 --> The average case. we call this Theta
+in position 6 = 7 --> The worst case. we call this Omicron
+
+Note: Omicron (O) is always the worst case.
+
+Type Of Big O Complexity :
+
+0(N) -> Linear operation.
+
+-Drop constants is always the first rule of simplification
+
+
