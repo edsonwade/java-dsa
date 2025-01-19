@@ -1,59 +1,27 @@
-# Java-Data-Structures-Algorithms-2023
+/**
+ * Author: vanilson muhongo
+ * Date:19/01/2025
+ * Time:14:51
+ * Version:1
+ */
 
-Java Data Structures &amp; Algorithms 2023
+package code.vanilson.linkdlist;
 
-## Technical
+import lombok.Getter;
 
-. Big O notation
-
-## Data Structures
-
-. Arrays
-
-. Array Lists
-
-. Linked Lists
-
-. Doubly Linked Lists
-
-. Stacks & Queues
-
-. Binary Trees
-
-. Hash Tables
-
-. Heaps
-
-. Graphs
-
-## Algorithms
-
-. Sorting
-
-. Bubble Sort
-
-. Selection Sort
-
-. Insertion Sort
-
-. Merge Sort
-
-. Quick Sort
-
-. Searching
-
-. Breadth First Search
-
-. Depth First Search
-
-## Example linkedList
-
-```Java
+@SuppressWarnings("all")
 /**
  * A simple implementation of a singly linked list.
+ * Boundery conditions
+ * Empty list
+ * Single element
+ * Beginning
+ * End
+ * middle
+ *  * @param <E> the type of elements in this list
  *
- * @param <E> the type of elements in this list
  */
+@Getter
 public class LinkedList<E> implements ListI<E> {
 
     private Node<E> head;
@@ -88,7 +56,7 @@ public class LinkedList<E> implements ListI<E> {
 
     /**
      * Adds an element to the beginning of the list.
-     *
+     * <p>
      * Time complexity: O(1) - Constant time as we only modify the head pointer.
      *
      * @param obj the element to add
@@ -105,7 +73,7 @@ public class LinkedList<E> implements ListI<E> {
 
     /**
      * Adds an element to the end of the list using the tail pointer.
-     *
+     * <p>
      * Time complexity: O(1) - Constant time if the tail is available.
      *
      * @param obj the element to add
@@ -125,7 +93,7 @@ public class LinkedList<E> implements ListI<E> {
     /**
      * Adds an element to the end of the list by traversing from head to tail.
      * This method is less efficient than addLast.
-     *
+     * <p>
      * Time complexity: O(n) - Linear time as we must traverse the entire list to reach the end.
      *
      * @param data the element to add
@@ -149,7 +117,7 @@ public class LinkedList<E> implements ListI<E> {
 
     /**
      * Removes the first element of the list.
-     *
+     * <p>
      * Time complexity: O(1) - Constant time as we only modify the head pointer.
      *
      * @param data the element to remove (unused in the implementation, as we only remove the first node)
@@ -167,7 +135,7 @@ public class LinkedList<E> implements ListI<E> {
 
     /**
      * Removes the first element of the list when there is only one element.
-     *
+     * <p>
      * Time complexity: O(1) - Constant time, as we check if the list has one element and update pointers accordingly.
      *
      * @param data the element to remove (unused in the implementation, as we only remove the first node)
@@ -187,4 +155,25 @@ public class LinkedList<E> implements ListI<E> {
         return tmp; // return the data of the removed node
     }
 }
-```
+
+
+@SuppressWarnings("all")
+class LinkedListTest {
+    public static void main(String[] args) {
+        LinkedList<Integer> list = new LinkedList<>();
+
+        // Test adding elements to the list
+        list.addFirst(1);
+        list.addFirst(2);
+        list.addLast(3);
+        list.addLast(4);
+
+        // Test removing elements
+        System.out.println("Removed first element: " + list.removeFirst(null)); // Expected output: 2
+        System.out.println("Removed first element (single): " + list.removeFirstSingleElement(null)); // Expected output: 1
+
+        // Test final list size
+        System.out.println("List size: " + list.getCurrentSize()); // Expected output: 2
+    }
+}
+
