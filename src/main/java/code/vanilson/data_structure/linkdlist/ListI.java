@@ -5,7 +5,7 @@
  * Version:
  */
 
-package code.vanilson.linkdlist;
+package code.vanilson.data_structure.linkdlist;
 
 public interface ListI<E> {
 }

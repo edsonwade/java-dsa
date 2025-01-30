@@ -1,4 +1,4 @@
-package code.vanilson.data_structure.linkedList;
+package code.vanilson.data_structure;
 
 public class Main {
     public static void main(String[] args) {

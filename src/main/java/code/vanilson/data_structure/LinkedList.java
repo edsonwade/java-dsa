@@ -1,4 +1,4 @@
-package code.vanilson.data_structure.linkedList;
+package code.vanilson.data_structure;
 
 import lombok.Getter;
 import lombok.Setter;

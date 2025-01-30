@@ -16,9 +16,32 @@ Java Data Structures &amp; Algorithms 2023
 
 . Doubly Linked Lists
 
-. Stacks & Queues
+. Stacks
+
+. Sets
+
+. Lists
+
+. Maps
+
+## Queues
+## Queues
+
+1\. FIFO Queues
+
+2\. LIFO Queues
+
+3\. Circular Queues
+
+## Dequeues
+
+. Priority Queues
 
 . Binary Trees
+
+. AVL Trees
+
+. Red-Black Trees
 
 . Hash Tables
 
@@ -26,9 +49,31 @@ Java Data Structures &amp; Algorithms 2023
 
 . Graphs
 
-## Algorithms
+. Tries
+
+. Bloom Filters
+
+. LRU Caches
+
+. Suffix Arrays
+
+. Suffix Trees
+
+. B-Trees
+
+. Binomial Heaps
+
+. Fibonacci Heaps
+
+. Union Find
+
+. Hypercubes
+
+## Searching
 
 . Sorting
+
+. Radix Sort
 
 . Bubble Sort
 
@@ -40,11 +85,17 @@ Java Data Structures &amp; Algorithms 2023
 
 . Quick Sort
 
-. Searching
+- **Graph Traversal**
+  .
+  Breadth First Search.
+  Depth First Search.
+  Dijkstra's Algorithm**
 
-. Breadth First Search
+- **A. Search Algorithm**
 
-. Depth First Search
+  Binary Search.
+  Linear Search.
+  Tree Traversal
 
 ## Example linkedList
 

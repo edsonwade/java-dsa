@@ -5,7 +5,7 @@
  * Version:1
  */
 
-package code.vanilson.linkdlist;
+package code.vanilson.data_structure.linkdlist;
 
 import lombok.Getter;
 
