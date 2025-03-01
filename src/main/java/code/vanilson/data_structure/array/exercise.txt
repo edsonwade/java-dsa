@@ -164,3 +164,16 @@
 10. **Find Minimum Number of Swaps to Sort Array**:
     - **Input**: `[4, 3, 2, 1]`
     - **Output**: `2`
+
+
+ public static int[] removeDuplicate(int[] arr) {
+         Set<Integer> set = new HashSet<>();
+         if (arr == null || arr.length == 0) {
+             return new int[0];
+         }
+         for (int index : arr) {
+             set.add(index);
+         }
+
+         return set.stream().mapToInt(i -> i).toArray();
+     }
