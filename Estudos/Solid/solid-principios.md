@@ -1,7 +1,9 @@
 
 ### O que é SOLID?
 
-**SOLID** é um conjunto de **5 princípios** de design de software que visam tornar o código mais **modular**, **flexível** e **manutenível**. Eles foram propostos por **Robert C. Martin** (também conhecido como "Uncle Bob") para melhorar a qualidade do código e ajudar a evitar problemas de manutenção à medida que o sistema cresce.
+**SOLID** é um conjunto de **5 princípios** de design de software que visam tornar o código mais **modular**, 
+**flexível** e facil de **manter**. Eles foram propostos por **Robert C. Martin** (também conhecido como "Uncle 
+Bob") para melhorar a qualidade do código e ajudar a evitar problemas de manutenção à medida que o sistema cresce.
 
 ### **Os 5 Princípios SOLID**
 
