@@ -21,7 +21,7 @@ public class Carro implements Cloneable{
     private int capacidadePassageiros;
     private BigDecimal price;
 
-    // Separacção de construcção de objetos da sua Representação usando builder.
+    // Separacção de construção de objetos da sua Representação usando builder.
     private Carro(CarroBuilder builder) {
         this.marca = builder.marca;
         this.cor = builder.cor;

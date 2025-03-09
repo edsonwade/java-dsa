@@ -42,7 +42,7 @@ mas deve ser usado com cautela, pois a manutenção de índices pode afetar o de
 Além disso, procure por **consultas N+1**, onde múltiplas consultas são feitas de forma ineficiente.
   
   ```sql
-  -- Exemplo de consulta de performance melhorada
+  -- ReportManager de consulta de performance melhorada
   SELECT p.nome, c.nome
   FROM produtos p
   JOIN categorias c ON p.id_categoria = c.id_categoria;

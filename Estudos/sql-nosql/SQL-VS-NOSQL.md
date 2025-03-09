@@ -42,7 +42,7 @@ CREATE TABLE Pedidos (
     FOREIGN KEY(id_cliente) REFERENCES Clientes(id_cliente)
 );
 
--- Exemplo de JOIN para buscar pedidos de um cliente
+-- ReportManager de JOIN para buscar pedidos de um cliente
 SELECT c.nome, p.data_pedido
 FROM Clientes c
 JOIN Pedidos p ON c.id_cliente = p.id_cliente;
@@ -79,7 +79,7 @@ O objetivo dos bancos NoSQL é fornecer **flexibilidade**, **escalabilidade hori
 Imagine um sistema de **redes sociais** onde você armazena informações sobre **usuários** e **postagens** usando o **MongoDB**, que é um banco de dados NoSQL orientado a documentos.
 
 ```javascript
-// Exemplo de um documento no MongoDB (JSON-like)
+// ReportManager de um documento no MongoDB (JSON-like)
 {
     "_id": ObjectId("5f75b5b5b6c9b5b7b5d5c5e3"),
     "usuario": "Joao",
@@ -161,7 +161,7 @@ mas deve ser usado com cautela, pois a manutenção de índices pode afetar o de
 Além disso, procure por **consultas N+1**, onde múltiplas consultas são feitas de forma ineficiente.
   
   ```sql
-  -- Exemplo de consulta de performance melhorada
+  -- ReportManager de consulta de performance melhorada
   SELECT p.nome, c.nome
   FROM produtos p
   JOIN categorias c ON p.id_categoria = c.id_categoria;
