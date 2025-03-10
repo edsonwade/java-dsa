@@ -11,13 +11,6 @@ import java.math.BigDecimal;
  */
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
-        Car car = new CarBuilder()
-                .setColor("blue")
-                .setModel("Sequoia")
-                .build();
-
-        car.showCar();
-
         Carro carro = new Carro
                 .CarroBuilder("Toyota", "Blue")
                 .setModelo("Cayenne")

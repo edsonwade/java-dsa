@@ -9,13 +9,14 @@ import java.util.Objects;
  * @version 1.0
  * @since 2025-03-07
  */
+@SuppressWarnings("all")
 public class Car {
-    private String model;
-    private String color;
+    private final String model;
+    private final String color;
 
-    public Car(String model, String color) {
-        this.model = model;
-        this.color = color;
+    public Car(CarBuilder builder) {
+        this.model = builder.model;
+        this.color = builder.color;
     }
 
     public void showCar() {
@@ -41,5 +42,34 @@ public class Car {
                 "model='" + model + '\'' +
                 ", color='" + color + '\'' +
                 '}';
+    }
+
+    static class CarBuilder {
+        private String model;
+        private String color;
+
+        public CarBuilder setModel(String model) {
+            this.model = model;
+            return this;
+        }
+
+        public CarBuilder setColor(String color) {
+            this.color = color;
+            return this;
+        }
+
+        public Car build() {
+            return new Car(this);
+        }
+    }
+
+    public static void main(String[] args) {
+        Car car = new CarBuilder()
+                .setColor("Blue")
+                .setModel("Sequoia")
+                .build();
+
+        System.out.println(car.color.equalsIgnoreCase("blue"));
+        car.showCar();
     }
 }
