@@ -9,7 +9,7 @@ public class Main {
 //        myLinkedList.getTail();
 //        myLinkedList.getLength();
 
-        System.out.println("\nLinked List:");
+        System.out.println("\nLinked Lists:");
         myLinkedList.printList();
 
         System.out.println("\nLinkedList 2 before append: ");

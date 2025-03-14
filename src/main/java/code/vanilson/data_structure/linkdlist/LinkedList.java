@@ -173,7 +173,7 @@ class LinkedListTest {
         System.out.println("Removed first element (single): " + list.removeFirstSingleElement(null)); // Expected output: 1
 
         // Test final list size
-        System.out.println("List size: " + list.getCurrentSize()); // Expected output: 2
+        System.out.println("Lists size: " + list.getCurrentSize()); // Expected output: 2
     }
 }
 
