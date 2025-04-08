@@ -62,6 +62,7 @@ public class Ex_004_CountEvenAndOddNumbers {
         AtomicLong oddNumbers = new AtomicLong(Arrays.stream(arr)
                 .boxed()
                 .filter(odd -> odd % 2 != 0)
+                .filter(even -> even % 2 == 1)
                 .count());
 
         System.out.println(EVEN + evenNumbers.intValue() + ODD + oddNumbers.intValue());

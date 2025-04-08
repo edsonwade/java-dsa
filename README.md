@@ -123,9 +123,9 @@ public class LinkedList<E> implements ListI<E> {
     }
 
     /**
-     * A node in the linked list that stores data and a reference to the next node.
+     * A node in the linked list that stores data.txt and a reference to the next node.
      *
-     * @param <E> the type of data stored in the node
+     * @param <E> the type of data.txt stored in the node
      */
     static class Node<E> {
         E data;
@@ -204,16 +204,16 @@ public class LinkedList<E> implements ListI<E> {
      * Time complexity: O(1) - Constant time as we only modify the head pointer.
      *
      * @param data the element to remove (unused in the implementation, as we only remove the first node)
-     * @return the data of the removed element or null if the list is empty
+     * @return the data.txt of the removed element or null if the list is empty
      */
     public E removeFirst(E data) {
         if (head == null) {
             return null; // if the list is empty, return null
         }
-        E tmp = head.data; // store the data of the first node
+        E tmp = head.data; // store the data.txt of the first node
         head = head.next; // move the head pointer to the next node
         currentSize--; // decrement the size of the list
-        return tmp; // return the data of the removed node
+        return tmp; // return the data.txt of the removed node
     }
 
     /**
@@ -222,20 +222,20 @@ public class LinkedList<E> implements ListI<E> {
      * Time complexity: O(1) - Constant time, as we check if the list has one element and update pointers accordingly.
      *
      * @param data the element to remove (unused in the implementation, as we only remove the first node)
-     * @return the data of the removed element or null if the list is empty
+     * @return the data.txt of the removed element or null if the list is empty
      */
     public E removeFirstSingleElement(E data) {
         if (head == null) {
             return null; // if the list is empty, return null
         }
-        E tmp = head.data; // store the data of the first node
+        E tmp = head.data; // store the data.txt of the first node
         if (head == tail) {
             head = tail = null; // if there is only one element, set both head and tail to null
         } else {
             head = head.next; // otherwise, move the head pointer to the next node
         }
         currentSize--; // decrement the size of the list
-        return tmp; // return the data of the removed node
+        return tmp; // return the data.txt of the removed node
     }
 }
 ```

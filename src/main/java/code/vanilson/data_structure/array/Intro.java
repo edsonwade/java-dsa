@@ -12,12 +12,12 @@ import java.util.Arrays;
 
 /**
  * Array is a collection of similar types of elements that have contiguous memory location.
- * Array is a fixed size data structure while ArrayList is a variable size Collection class.
- * Array can contain primitive data types as well as objects of a class depending on the definition of the array.
- * ArrayList only supports object entries, not the primitive data types.
+ * Array is a fixed size data.txt structure while ArrayList is a variable size Collection class.
+ * Array can contain primitive data.txt types as well as objects of a class depending on the definition of the array.
+ * ArrayList only supports object entries, not the primitive data.txt types.
  * Array can be multidimensional.
  * Array can be used to store multiple values in a single variable, instead of declaring separate variables for each value.
- * Array can be used to implement other data structures like Stacks, Queues, Heaps, Hash tables, etc.
+ * Array can be used to implement other data.txt structures like Stacks, Queues, Heaps, Hash tables, etc.
  */
 
 public class Intro {
