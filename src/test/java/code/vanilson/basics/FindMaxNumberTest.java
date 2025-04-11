@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.containsString;
 import static org.junit.jupiter.api.Assertions.*;
 
 class FindMaxNumberTest {
@@ -42,10 +44,10 @@ class FindMaxNumberTest {
             "5, -2",   // illegal
     })
     void test_given_Two_Negative_Numbers_Should_Throw_Exception(int number1, int number2) {
-        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
-            FindMaxNumber.findTheMaxPositiveBetweenTwoGivenNumbersUsingMathMax(number1, number2);
-        });
+        var exception = assertThrows(IllegalArgumentException.class, () ->
+                FindMaxNumber.findTheMaxPositiveBetweenTwoGivenNumbersUsingMathMax(number1, number2));
         assertEquals("Both numbers must be positive.", exception.getMessage());
+        assertThat(exception.getMessage(), containsString("Both numbers must be positive."));
     }
 
 }
