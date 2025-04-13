@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @version 1.0
  * @since 2025-04-08
  */
-@SuppressWarnings("unused")
+@SuppressWarnings("all")
 public class FindMaxNumber {
 
     public static final String MUST_BE_POSITIVE = "Both numbers must be positive.";
