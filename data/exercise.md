@@ -245,7 +245,8 @@ Explicação: O fatorial de 5 é 5 * 4 * 3 * 2 * 1 = 120.
 
 Verificar se um Número é Primo
 
-Descrição: Dado um número n, verifique se ele é um número primo. Um número primo é um número maior que 1 que só é divisível por 1 e ele mesmo.
+Descrição: Dado um número n, verifique se ele é um número primo. 
+Um número primo é um número maior que 1 que só é divisível por 1 e ele mesmo.
 
 Input: n = 7
 
@@ -295,7 +296,7 @@ Saída: Maior: 8, Menor: 2
 
 Dicas:
 
-Inicialize duas variáveis para armazenar o maior e o menor valor, atribuindo a elas o primeiro elemento do array.
+Inicialize duas variáveis para armazenar o maior e o menor valor, atribuindo-lhes o primeiro elemento do array.
 
 Percorra o array comparando cada elemento com essas variáveis e atualize-as conforme necessário.
 
