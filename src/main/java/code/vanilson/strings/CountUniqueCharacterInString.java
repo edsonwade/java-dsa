@@ -9,6 +9,7 @@ package code.vanilson.strings;
 
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 
@@ -18,7 +19,7 @@ public class CountUniqueCharacterInString {
         System.out.println(countUniqueCharacterInWords(words));
     }
 
-    static int countUniqueCharacterInWords(String words) {
+    public static int countUniqueCharacterInWords(String words) {
         if (Objects.isNull(words) || words.isEmpty()) {
             throw new IllegalArgumentException("Words cannot be null or empty");
         }
@@ -28,4 +29,5 @@ public class CountUniqueCharacterInString {
         }
         return strings.size();
     }
+
 }

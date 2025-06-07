@@ -23,6 +23,7 @@ class CountUniqueCharacterInStringTest {
         assertEquals(expected, countUniqueCharacterInWords(words), "should be equals");
     }
 
+
     @DisplayName("Thrown an exception -Failed")
     @Test
     void testCountUniqueCharacterInWordsThrownExceptions() {

@@ -20,7 +20,7 @@ public class CountWordsInStrings {
         if (Objects.isNull(words) || words.isEmpty()) {
             throw new IllegalArgumentException("The words cannot be null neither empty");
         }
-        return words.split(" ").length;
+        return words.split("\\S+").length;
     }
 
      static int countWordsInStringIntStream(String words) {

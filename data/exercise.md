@@ -350,7 +350,8 @@ Converta o HashSet de volta para um array, se necessário.
 
 5. Rotacionar um Array para a Direita
 
-Descrição: Implemente um método que rotacione os elementos de um array para a direita por uma quantidade k de posições.
+Descrição: Implemente um método que rotacione os elementos de um array 
+para a direita por uma quantidade k de posições.
 
 Exemplo:
 
@@ -366,7 +367,11 @@ Divida o array em duas partes e reorganize-as para obter o resultado desejado.
 
 6. Encontrar Todos os Pares com Soma Igual a um Valor Específico
 
-Descrição: Dado um array de inteiros e um número alvo, encontre todos os pares de elementos no array cuja soma seja igual ao número alvo.
+Descrição: Dado um array de inteiros e um número alvo, 
+encontre todos os pares de elementos no array cuja soma seja igual ao número alvo.
+
+i + 2 =6;
+
 
 Exemplo:
 
@@ -378,7 +383,7 @@ Dicas:
 
 Utilize uma estrutura como HashSet para armazenar os complementos necessários para atingir a soma alvo enquanto percorre o array.
 
-7. Mover Todos os Zeros para o Fim do Array
+1. Mover Todos os Zeros para o Fim do Array
 
 Descrição: Escreva um programa que mova todos os zeros de um array de inteiros para o final, mantendo a ordem dos outros elementos.
 
